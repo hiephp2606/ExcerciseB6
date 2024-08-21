@@ -6,5 +6,13 @@ public class Employee extends Person{
         this.experience = experience;
     }
 
-
+    @Override
+    public String toString() {
+        return "Employee [" +
+                " id: " + getId() +
+                ", name: " + getName() +
+                ", age: " + getAge() +
+                ", experience=" + experience +
+                " ]";
+    }
 }
